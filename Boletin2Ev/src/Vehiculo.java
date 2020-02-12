@@ -10,9 +10,9 @@ public class Vehiculo {
 	
 	public void mostrarDatos() {
 		
-		System.out.println(matricula);
-		System.out.println(tipo);
-		System.out.println(velocidadMaxima);
+		System.out.println("Matricula: " + matricula);
+		System.out.println("Tipo: " + tipo);
+		System.out.println("VMax: " + velocidadMaxima);
 	}
 	//constructor
 	

@@ -4,6 +4,7 @@ public class Coche extends Vehiculo {
 	public void mostrarDatos() {
 		
 		System.out.println(numeroPlazas);
+		super.mostrarDatos();
 	}
 
 	private int numeroPlazas;
@@ -12,6 +13,8 @@ public class Coche extends Vehiculo {
 		setMatricula(matricula);
 		setTipo(tipo);
 		setVelocidadMaxima(velocidadMaxima);
+		setNumeroPlazas(numeroPlazas);
+		this.numeroPlazas=numeroPlazas;
 	}
 	public int getNumeroPlazas() {
 		return numeroPlazas;

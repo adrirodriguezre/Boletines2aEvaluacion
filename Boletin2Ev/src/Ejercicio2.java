@@ -11,7 +11,9 @@ public class Ejercicio2 {
 		re1.matricula="45645"; //opcional 
 		
 		Camion ca1=new Camion("54543", "camion", 110, re1 );
-		
+		ca1.setAltura(25);
+		//c1.mostrarDatos();
+		ca1.mostrarDatos();
 	
 	}
 
