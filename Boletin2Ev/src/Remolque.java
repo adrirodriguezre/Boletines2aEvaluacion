@@ -7,7 +7,7 @@ public class Remolque {
 	@Override
 	public String toString() {
 		
-		return "Matricula de remolque: " + matricula;
+		return "Matricula de remolque: " + matricula + "\nLongitud: " + longitud;
 	}
 	
 }
